@@ -8,7 +8,7 @@ def oldest_cat(*args):
 def oldest_cats(*args):
     return [cat for cat in args if cat.age==max([i.age for i in args])]
 cat1=Cat('Nissi', 15)
-cat2=Cat('Missi', 15)
+cat2=Cat('Fissi', 15)
 cat3=Cat('Gissi', 6)
 
 print(oldest_cats(cat1, cat2, cat3))
