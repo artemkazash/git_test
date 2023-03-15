@@ -10,5 +10,6 @@ def oldest_cats(*args):
 cat1=Cat('Nissi', 15)
 cat2=Cat('Fissi', 15)
 cat3=Cat('Gissi', 6)
+cat4=Cat('Missi, 2)
 
 print(oldest_cats(cat1, cat2, cat3))
